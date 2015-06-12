@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yddehigama.idioma" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".gui1"
+            android:label="Idioma">
+
+        </activity>
+
+        <activity
+            android:name=".sinhala1"
+            android:label="Idioma">
+
+            </activity>
+        <activity
+            android:name=".english1"
+            android:label="Idioma">
+
+        </activity>
+
+        <activity
+            android:name=".sinhala_choose_path"
+            android:label="Idioma">
+
+        </activity>
+
+        <activity android:name=".sinhala_basicq1"
+            android:label="Idioma"></activity>
+
+    </application>
+
+</manifest>
